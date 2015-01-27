@@ -1,0 +1,474 @@
+@font-face {
+	font-family: AdamPro;
+	src: url("../fonts/ADAMCGPRO - SHRENIK/ADAM.CG PRO.otf") format("opentype");
+}
+
+body {
+	font-family: AdamPro, Helvetica, Verdana, 'Tw Cen MT' ;
+	font-size: 100px;
+}
+
+div.navbar{
+	background-color: #a5a5a2;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	border-radius: 0px;
+	opacity:0.95;
+
+	font-size: 20px;
+	line-height: 100px;
+	/*border-style: solid;
+	border-color: red;*/
+	min-width: 1000px;
+
+	overflow: visible;
+
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+div.myName{
+	float: left;
+	
+}
+
+div.navigationRight{
+	width:750px;
+	float:right;
+	font-size: 25;
+
+	
+}
+
+a:link{
+	text-decoration: none;
+	color: #FA8072;
+}
+
+div.link{
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+div.content{
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+div.introSection{
+	height: 500px;	
+	background-color: white;
+	
+
+}
+div.introSection .firstNameText{
+	font-size: 150px;
+	vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 100px;
+}
+div.introSection .lastNameText{
+	font-size: 150px;
+	vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 300px;
+}
+
+div.educationSection .educationText{
+	font-size: 25px;
+}
+
+div.MediaLab{
+	width: 880px;
+	height: 300px;
+	
+	text-align: center;
+	margin: auto;
+	margin-top: 250px;
+	display: table;
+	
+	
+	
+}
+div.WineDefined{
+	width: 880px;
+	height: 300px;
+	
+	text-align: center;
+	margin: auto;
+	margin-top: 200px;
+	
+	
+	
+}
+div.mistiGTL{
+	width: 920px;
+	height: 300px;
+	
+	text-align: center;
+	margin: auto;
+	margin-top: 200px;
+	
+	
+
+}
+
+div.sphero{
+	width: 900px;
+	height: 300px;
+	
+	text-align: center;
+	margin: auto;
+	margin-top: 250px;
+	
+	
+}
+div.EMC{
+	width: 900px;
+	height: 300px;
+	
+	text-align: center;
+	margin: auto;
+	margin-top: 200px;
+	
+	
+}
+
+div.skillsSection{
+	height: 500px;	
+	background-color: #4CFEED;
+}
+
+div.extracurricularSection{
+	height: 1600px;
+	/*background-color: #44E3D4;*/
+	background-color: #99f0e8;
+
+}
+
+div.experienceSection{
+	height: 3000px;
+	
+
+	/*background-color: #3CC9BB;*/
+	background-color: white;
+
+
+}
+
+
+div.educationSection{
+
+	height: 500px;
+	/*background-color: #34ACA0;*/
+	background: -webkit-linear-gradient(#0f675f, #ccf7f3); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0f675f, #ccf7f3); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0f675f, #ccf7f3); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0f675f, #ccf7f3); /* Standard syntax */
+	
+
+	
+}
+div.educationSection .text{
+	font-size: 25px;
+}
+
+
+div.meSection{
+	height: 520px;
+	/*background-color: #4CFEED;*/
+	background-color: #ccf7f3;
+	/*background-color: #2A897F;*/
+	
+}
+
+
+
+
+
+div.sbcPic{
+	float:left;
+	
+	margin-left: 90px;
+	/*border-style: solid;
+	border-color: red;*/
+
+}
+div.sbcText{
+	font-size: 15px;
+	float:left;
+	margin-top: 40px;
+	margin-left: 50px;;
+	
+	/*border-style: solid;
+	border-color: red;*/
+
+}
+
+
+div.footballPic{
+	float:right;
+	
+	margin-left: 50px;
+	margin-right: 100px;
+	/*border-style: solid;
+	border-color: red;*/
+
+}
+div.footballText{
+	float:right;
+	
+	font-size: 15px;
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-top: 75px;
+	/*border-style: solid;
+	border-color: red;*/
+}
+
+
+div.saacPic{
+	float:left;
+	
+	margin-left: 100px;
+	/*border-style: solid;
+	border-color: red;*/
+
+}
+div.saacText{
+	font-size: 15px;
+	float:left;
+	margin-top: 50px;
+	
+	margin-left: 100px;;
+	
+	/*border-style: solid;
+	border-color: red;*/
+
+}
+/*
+div{
+	border-style: solid;
+	border-color: red;
+}*/
+
+div.leadershipAcademyPic{
+	float:right;
+	
+	margin-left: 50px;
+	margin-right: 100px;
+	/*border-style: solid;
+	border-color: red;*/
+
+}
+div.leadershipAcademyText{
+	float:right;
+	margin-top: 50px;
+	font-size: 15px;
+	margin-left: 100px;
+	margin-right: 50px;
+	/*border-style: solid;
+	border-color: red;*/
+}
+div.hobbies{
+	width: 200px;
+	
+	font-size: 15px;
+	float:left;
+	
+
+}
+div.skills{
+	width: 200px;
+	
+	font-size: 15px;
+	float:left;
+	margin-left: 10%;
+	
+}
+div.coursework{
+	width: 220px;
+	
+	font-size: 15px;
+	float:left;
+	margin-left: 10%;
+	
+}
+div.links{
+	vertical-align: center;
+}
+div.email{
+	
+	float:left;
+	font-size: 15px;
+	
+
+
+}
+div.linkedIn{
+	
+	float: right;
+	font-size: 15px;
+	
+}
+
+div.medialeftContent{
+	float: left;
+	width: 251px;
+	margin-top: 30px;
+    	}
+div.mediarightContent{
+	float: left;
+	margin-top: 50px;
+	font-size: 15px;
+    margin-left: 100px;
+}
+div.mediamiddleContent{
+	float: left;
+    margin-left: 100px;
+}
+
+div.wineleftContent{
+	float: left;
+	font-size: 30px;
+	width: 251px;
+	margin-top: 60px;
+   
+}
+
+div.winemiddleContent{
+	float: left;
+    margin-left: 100px;
+}
+div.winerightContent{
+	float: left;
+	margin-top: 50px;
+	font-size: 15px;
+    margin-left: 120px;
+}
+
+div.mistiContent{
+	float: left;
+
+   
+    margin-left: 100px;
+}
+
+div.mistileftContent{
+	float: left;
+	margin-left: 10px;
+	width: 251px;
+	margin-top: 75px;
+   
+}
+
+div.mistirightContent{
+	float: left;
+	font-size: 15px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+div.mistiContent{
+	float: left;
+
+   
+    margin-left: 100px;
+}
+
+
+div.spheroleftContent{
+	float: left;
+	font-size: 30px;
+	width: 251px;
+    
+}
+
+div.spheromiddleContent{
+	float: left;
+    margin-left: 90px;
+}
+div.spherorightContent{
+	float: left;
+	margin-top: 40px;
+	font-size: 15px;
+    margin-left: 90px;
+}
+
+
+
+div.emcleftContent{
+	float: left;
+	font-size: 30px;
+	width: 251px;
+	
+    
+}
+
+div.emcmiddleContent{
+	float: left;
+    margin-left: 90px;
+}
+div.emcrightContent{
+	float: left;
+	margin-top: 30px;
+	font-size: 15px;
+    margin-left: 90px;
+}
+
+
+div.sbc{
+	margin-top: 250px;
+	float:left;
+	width: 900px;
+}
+
+div.football{
+	margin-top: 150px;
+	float:right;
+	width: 900px;
+}
+div.saac{
+	float:left;
+	width: 900px;
+	margin-top: 150px;
+}
+
+div.scla{
+	float:right;
+	width: 900px;
+	margin-top: 150px;
+}
+
+div.upperMe{
+	width: 780px;
+	margin-top: 150px;
+	height:200px;
+	margin: auto; 
+	margin-top: 100px;
+	text-align: center;
+}
+div.links{
+	width: 350px;
+	text-align: center;
+	margin:auto;
+	height: 50px;
+	
+
+}
