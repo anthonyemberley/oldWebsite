@@ -58,10 +58,10 @@ $(document).ready(function() {
        }if($(window).scrollTop() >4650 ) {
              $('div.saac').fadeIn(2500);
              
-       }if($(window).scrollTop() >4950 ) {
+       }if($(window).scrollTop() >4800 ) {
              $('div.scla').fadeIn(2500);
              
-       }if($(window).scrollTop() >=5580 ) {
+       }if($(window).scrollTop() >=4800 ) {
              $('div.links').fadeIn(2500);
              $('div.upperMe ').fadeIn(2500);
              
