@@ -40,6 +40,7 @@ $(document).ready(function() {
              $('div.WineDefined').fadeIn(2500);
              
        }if($(window).scrollTop() >2050 ) {
+        
              $('div.mistiGTL').fadeIn(2500);
              
        }
