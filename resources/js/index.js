@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  var divs = $('div.educationText, div.educationImage, div.sphero, div.mistiGTL, div.EMC, div.WineDefined, div.MediaLab, div.scla, div.sbc, div.football, div.saac, div.upperMe, div.links');
+  //var divs = $('div.educationText, div.educationImage, div.sphero, div.mistiGTL, div.EMC, div.WineDefined, div.MediaLab, div.scla, div.sbc, div.football, div.saac, div.upperMe, div.links');
+  var divs = $('div.educationText, div.educationImage,div.upperMe, div.links');
+  
+
   divs.hide();
   var introSectionTop = $("div.introSection").offset().top - 100; 
   var experienceSectionTop = $("div.experienceSection").offset().top - 100;
